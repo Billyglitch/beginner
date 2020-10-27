@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} CONTACT EXPLORER {% endblock %}
+{% block meta_description %} EXPLORE THE WORLD {% endblock %}
+{% block content %}
+
+<center>
+    <h2> Thanks {{ fname }} !</h2>
+    <p>We received your email and will respond shortly....
+    </p>
+  </center>
+  <br/><br/><br/>
+
+<meta http-equiv = "refresh" content = "5"; url ="{% url 'contact' %}"  />
+
+{% endblock %}

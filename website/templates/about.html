@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} ABOUT EXPLORER {% endblock %}
+{% block meta_description %} EXPLORE THE WORLD {% endblock %}
+{% block content %}
+  <section class="probootstrap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p><img src="{% static 'website/img/img_8.jpg' %}" class="img-responsive" alt="Free Bootstrap Template by uicookies.com"></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7 col-md-push-5">
+          <h2>About Me</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END section -->
+
+  <div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+  </div>
+  
+
+  <script src="{% static 'website/js/scripts.min.js' %}"></script>
+  <script src="{% static 'website/js/main.min.js' %}"></script>
+  <script src="{% static 'website/js/custom.js' %}"></script>
+  </body>
+</html>
+
+{% endblock %}
